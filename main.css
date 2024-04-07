@@ -1,6 +1,5 @@
 body {
-    display: contents;
-    background:url('mc-bg.webp') no-repeat;
+    background-image: url('mc-bg.webp') no-repeat;
     background-size: cover;
     background-position: center;
 }
