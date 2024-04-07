@@ -23,5 +23,6 @@ body {
     font-family: sans-serif;
     font-size: 20px;
     display: flex;
-    justify-content: end;
+    justify-content: last baseline;
+    align-items: last baseline;
 }
