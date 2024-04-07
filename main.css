@@ -7,9 +7,6 @@ body {
 }
 
 .about-banner {
-    display: contents;
-    justify-content: left;
-    align-items: left;
     background-color:blueviolet;
     border-radius: 40px;
     border: 2px solid rgba(255, 255, 255, 0.2);
