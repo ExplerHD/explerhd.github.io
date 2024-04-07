@@ -18,3 +18,10 @@ body {
     font-size: 48px;
     color: #fff;
 }
+
+.about-banner p {
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+}
