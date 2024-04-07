@@ -7,7 +7,7 @@ body {
 }
 
 .about-banner {
-    display: flex;
+    display: contents;
     justify-content: left;
     align-items: left;
     background-color:blueviolet;
