@@ -1,8 +1,9 @@
 body {
-    background-image: url('mc-bg.webp') no-repeat;
+    background-image: url('mc-bg.webp');
     background-size: cover;
     height: 100vh;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .about-banner {
