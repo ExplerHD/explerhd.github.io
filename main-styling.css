@@ -1,5 +1,11 @@
 body {
-    margin: 0;
+    margin: 10%;
     background: aquamarine;
+    color: rgb(2, 92, 51);
+}
+
+h1 {
     text-align: center;
+    color: white;
+    font-size: 70px;
 }
