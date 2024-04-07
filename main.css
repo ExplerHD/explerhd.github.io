@@ -1,28 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     background-image: url('mc-bg.webp');
-    background-size: cover;
+    background-size:cover;
     height: 100vh;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 .about-banner {
-    background-color:blueviolet;
-    border-radius: 40px;
+    background-color: rgba(106, 90, 205, 0.4);
+    border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    padding: 100px 100px;
+    box-shadow: 0, 0, 14px, 40px;
+    padding: 40px 40px;
 }
 
 .about-banner h1 {
-    font-family: Helvetica;
+    font-family: "Rubik", sans-serif;
     font-size: 48px;
     color: #fff;
 }
 
 .about-banner p {
-    font-family: sans-serif;
+    font-family: "Rubik", sans-serif;
+    color: #fff;
     font-size: 20px;
     display: flex;
     justify-content: last baseline;
     align-items: last baseline;
+}
+
+.addon-tab {
+    margin-top: 2%;
+    background-color: rgba(106, 90, 205, 0.4);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0, 0, 14px, 40px;
+    padding: 40px 40px;
+}
+
+.addon-tab h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 48px;
+    color: #fff;
+}
+
+.the-fates-intertwined {
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0, 0, 14px, 40px;
+    padding: 40px 40px;
+}
+
+.the-fates-intertwined a {
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+    color: #000;
+    text-decoration:none;
+    display: flex;
+    justify-content: last baseline;
+    align-items: last baseline;
+}
+
+.the-fates-intertwined-pic {
+    width: 720px;
+    height: 406px;
+    aspect-ratio: 16/9;
 }
