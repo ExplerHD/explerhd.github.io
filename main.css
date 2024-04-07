@@ -1,6 +1,6 @@
 body {
     display: contents;
-    background: url("/images/download.jpeg") no-repeat;
+    background:url('mc-bg.webp') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -9,9 +9,9 @@ body {
     display: flex;
     justify-content: left;
     align-items: left;
-    width: 720px;
     background-color:blueviolet;
-    border: 2px solid #fff;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
     padding: 100px 100px;
 }
 
