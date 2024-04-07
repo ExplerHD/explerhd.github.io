@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+@media only screen and (max-width: 425px) {
+    .box {
+        width: 90%;
+        height: 100%;
+    }
+}
+
 body {
-    background-image: url('mc-bg.webp');
+    background-image: url('mc-bg2.png');
     background-size:cover;
     height: 100vh;
     background-position: center;
@@ -12,8 +19,14 @@ body {
     background-color: rgba(106, 90, 205, 0.4);
     border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0, 0, 14px, 40px;
     padding: 40px 40px;
+    transition: 0.3s;
+}
+
+.about-banner:hover {
+    background-color: rgba(106, 90, 205, 1);
+    box-shadow: 0 0 14 0 rgba(106, 90, 205, 1);
+    transition: 0.3s;
 }
 
 .about-banner h1 {
@@ -36,8 +49,8 @@ body {
     background-color: rgba(106, 90, 205, 0.4);
     border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0, 0, 14px, 40px;
     padding: 40px 40px;
+    box-sizing:content-box;
 }
 
 .addon-tab h1 {
@@ -46,18 +59,26 @@ body {
     color: #fff;
 }
 
-.the-fates-intertwined {
-    margin-top: 2%;
+.box {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 20px;
-    width: fit-content;
-    height: fit-content;
+    max-width: 320px;
+    max-height: fit-content;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0, 0, 14px, 40px;
     padding: 40px 40px;
+    margin: 2%;
+    transition: 0.3s;
+    float:left;
+    box-sizing: border-box;
 }
 
-.the-fates-intertwined a {
+.box:hover {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 14px 0px white;
+    transition: 0.3s;
+}
+
+.box a {
     font-family: "Rubik", sans-serif;
     font-size: 32px;
     color: #000;
@@ -68,7 +89,7 @@ body {
 }
 
 .the-fates-intertwined-pic {
-    width: 720px;
-    height: 406px;
+    width: 250px;
+    height: 160px;
     aspect-ratio: 16/9;
 }
