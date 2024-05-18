@@ -348,7 +348,7 @@ body {
         display: grid;
         grid-template-rows: 100px min-content min-content min-content min-content min-content;
         grid-template-columns: 100%;
-        grid-template-areas: 'header' 'row1' 'row2' 'row3' 'row4' 'row5';
+        grid-template-areas: 'header' 'row1' 'row2' 'row3' 'row4' 'row5' 'row6';
         grid-auto-rows: 100%;
         grid-auto-flow: column;
         gap: 1em;
@@ -358,16 +358,20 @@ body {
         grid-area: row1;
     }
 
-    .exp-ui {
+    .old-era-revival {
         grid-area: row2;
     }
 
-    .legendary-weapons {
+    .exp-ui {
         grid-area: row3;
     }
 
-    .legend-of-hex {
+    .legendary-weapons {
         grid-area: row4;
+    }
+
+    .legend-of-hex {
+        grid-area: row5;
     }
 
     .the-fates-intertwined-pic {
