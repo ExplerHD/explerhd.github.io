@@ -11,6 +11,7 @@ body {
     background-repeat: repeat-y;
 }
 
+/* NAVIGATION PANEL */
 .navbar {
     width: 85%;
     margin: auto;
@@ -113,7 +114,6 @@ body {
     background: rgba(135, 29, 255, 0.5);
     border-radius: 10px;
     color: white;
-    border: 2px solid rgba(125, 125, 125, 1);
     padding: 30px 30px;
     margin-left: 40px;
     margin-right: 40px;
@@ -124,6 +124,7 @@ body {
     grid-auto-rows: 100%;
     grid-auto-flow: column;
     gap: 1em;
+    backdrop-filter: blur(15px);
 }
 
 .the-fates-intertwined {
@@ -139,6 +140,7 @@ body {
 
 .the-fates-intertwined a {
     color: white;
+    font-size:32px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -151,7 +153,14 @@ body {
     border-radius: 10px;
     padding: 10px 10px;
     display: grid;
-    grid-template-rows: min-content min-content;
+    grid-auto-rows: auto;
+}
+
+.exp-ui a {
+    color: white;
+    font-size:32px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .legendary-weapons {
@@ -165,6 +174,13 @@ body {
     grid-auto-rows: auto;
 }
 
+.legendary-weapons a {
+    color: white;
+    font-size:32px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .legend-of-hex {
     grid-area: aside2;
     max-width: 100%;
@@ -176,10 +192,53 @@ body {
     grid-auto-rows: auto;
 }
 
+.legend-of-hex a {
+    color: white;
+    font-size:32px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .the-fates-intertwined-pic {
     max-width: 320px;
     max-height: 200px;
     aspect-ratio: 16/9;
+}
+
+/* BUTTONS */
+.view-button {
+    background-color: rgba(192, 122, 0, 0.7);
+    width: 40%;
+    color: #fff;
+    border-radius: 15px;
+    border-color: rgba(0,0,0,0);
+    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background-color: rgb(255, 208, 0);
+    color: #000;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 4px rgb(255, 208, 0);
+}
+
+.download-button {
+    margin-left: 1%;
+    background-color: rgba(0, 80, 192, 0.7);
+    width: 40%;
+    color: #fff;
+    border-radius: 15px;
+    border-color: rgba(0,0,0,0);
+    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: rgb(0, 128, 255);
+    color: #000;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 4px rgb(0, 128, 255);
 }
 
 /* MEDIA QUERIES */
