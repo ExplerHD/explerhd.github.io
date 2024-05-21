@@ -109,9 +109,20 @@ body {
     margin-right: 40px;
 }
 
+/* LABELS */
+.upload {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    background-color: rgba(135, 29, 255, 0.5);
+    padding: 30px;
+    border-radius: 30px;
+}
+
 /* ADDONS TAB */
 .addon-tab {
-    margin-top: 20px;
     background: rgba(135, 29, 255, 0.5);
     border-radius: 10px;
     color: white;
@@ -119,13 +130,9 @@ body {
     margin-left: 40px;
     margin-right: 40px;
     display: grid;
-    grid-template-rows: 100px min-content min-content min-content;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: 'header header' 'main aside' 'main2 aside2' 'main3 aside3';
-    grid-auto-rows: 100%;
-    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 870px));
     gap: 1em;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(7px);
 }
 
 /* LABEL CATEGORY */
@@ -179,7 +186,6 @@ body {
 
 /* ADDONS LIST */
 .the-fates-intertwined {
-    grid-area: main;
     max-width: 100%;
     max-height: fit-content;
     background: rgba(192, 0, 0, 0.5);
@@ -198,7 +204,6 @@ body {
 }
 
 .exp-ui {
-    grid-area: main2;
     max-width: 100%;
     max-height: fit-content;
     background: rgba(192, 0, 0, 0.5);
@@ -217,7 +222,6 @@ body {
 }
 
 .old-era-revival {
-    grid-area: aside;
     max-width: 100%;
     max-height: fit-content;
     background: rgba(192, 0, 0, 0.5);
@@ -236,7 +240,6 @@ body {
 }
 
 .legendary-weapons {
-    grid-area: aside2;
     max-width: 100%;
     max-height: fit-content;
     background: rgba(192, 0, 0, 0.5);
@@ -255,7 +258,6 @@ body {
 }
 
 .legend-of-hex {
-    grid-area: main3;
     max-width: 100%;
     max-height: fit-content;
     background: rgba(192, 0, 0, 0.5);
@@ -336,42 +338,20 @@ body {
         width: unset;
     }
 
-    .addon-tab {
-        margin-top: 20px;
-        background: rgba(135, 29, 255, 0.5);
-        border-radius: 10px;
-        color: white;
-        border: 2px solid rgba(125, 125, 125, 1);
-        padding: 30px 30px;
-        margin-left: 40px;
-        margin-right: 40px;
-        display: grid;
-        grid-template-rows: 100px min-content min-content min-content min-content min-content;
-        grid-template-columns: 100%;
-        grid-template-areas: 'header' 'row1' 'row2' 'row3' 'row4' 'row5' 'row6';
-        grid-auto-rows: 100%;
-        grid-auto-flow: column;
-        gap: 1em;
+    .type {
+        width: 50%;
     }
 
-    .the-fates-intertwined {
-        grid-area: row1;
+    .games {
+        width: 50%;
     }
 
-    .old-era-revival {
-        grid-area: row2;
+    .addon-version {
+        width: 50%;
     }
 
-    .exp-ui {
-        grid-area: row3;
-    }
-
-    .legendary-weapons {
-        grid-area: row4;
-    }
-
-    .legend-of-hex {
-        grid-area: row5;
+    .game-version {
+        width: 50%;
     }
 
     .the-fates-intertwined-pic {

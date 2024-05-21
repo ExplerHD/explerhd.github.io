@@ -2,6 +2,7 @@
 
 * {
     font-family: "Rubik", sans-serif;
+    font-size: 18px;
 }
 
 body {
@@ -158,9 +159,21 @@ body {
     margin: 5px;
 }
 
-.description p {
-    font-size: 18px
+.thumbnail {
+    margin-top: 2%;
+    width: 60vw;
+    height: 60vh;
+    aspect-ratio: 16/9;
 }
+
+.segment-weapon {
+    font-size: 24px;
+}
+
+.weapons {
+    font-size: 30px;
+}
+
 /* MEDIA QUERIES */
 @media(max-width: 992px){
     .navbar .links {
